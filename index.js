@@ -26,8 +26,8 @@ function viewCart() {
     return "In your cart, you have " + cart[0].itemName + " at " + "$" + cart[0].itemPrice + ", and " + cart[1].itemName + " at " + "$" + cart[1].itemPrice + ".";
   }
   else {
-  for (i = 2; i < cart.length-1; i++) {
-    return firstItem + ", " + cart[i].itemName + " at " + cart[i].itemPrice + "," + lastItem;} 
+  for (let i = 1; i < cart.length-1; i++) {
+    return "In your cart, you have" + cart[0].itemName + " at " + "$" + cart[0].itemPrice + ", " + cart[i].itemName + " at " + 
   }
 }
 

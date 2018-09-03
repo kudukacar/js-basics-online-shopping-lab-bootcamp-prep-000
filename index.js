@@ -23,7 +23,7 @@ function viewCart() {
   if(cart.length === 1) {
     return "In your cart, you have "  + cart[0].itemName + " at " + "$" + cart[0].itemPrice + ".";}
   if(cart.length === 2) {
-    return "In you cart, you have " + cart[0].itemName + " at " + "$" + cart[0].itemPrice + ", and " + cart[1].itemName + " at " + "$" + cart[1].itemPrice + ".";
+    return "In your cart, you have " + cart[0].itemName + " at " + "$" + cart[0].itemPrice + ", and " + cart[1].itemName + " at " + "$" + cart[1].itemPrice + ".";
   }
   else {
   for (i = 2; i < cart.length-1; i++) {

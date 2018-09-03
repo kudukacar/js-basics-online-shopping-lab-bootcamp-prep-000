@@ -18,8 +18,10 @@ function addToCart(item) {
 
 function viewCart() {
   if(cart.length === 0) {
-    return "Your shopping cart is empty"
+    return "Your shopping cart is empty";
   }
+  if(cart.length === 1) {
+    return "In your cart, you have " + item + "at " + price + "."  }
   for (i = 0; i < cart.length; i++) {
   }
 }

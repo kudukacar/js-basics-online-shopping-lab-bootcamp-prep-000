@@ -21,7 +21,7 @@ function viewCart() {
     return "Your shopping cart is empty";
   }
   if(cart.length === 1) {
-    return firstItem + ".";  }
+    return "In your cart, you have "  }
   if(cart.length === 2) {
     return firstItem + "," + lastItem;
   }

@@ -17,7 +17,7 @@ function addToCart(item) {
 }
 
 function viewCart() {
-  var firstItem = "In your cart, you have " + cart[0].itemName + " at " + cart[0].itemPricerice;
+  var firstItem = "In your cart, you have " + cart[0].itemName + " at " + cart[0].itemPrice;
   var lastItem = " and " + cart[cart.length-1].itemName + " at " + cart[cart.length-1].itemPrice + ".";
   if(cart.length === 0) {
     return "Your shopping cart is empty";
